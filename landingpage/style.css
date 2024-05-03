@@ -1,0 +1,108 @@
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dosis&family=Heebo&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containar {
+    max-width: 80vw;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    
+}
+
+.navbar li::selection{
+    color: black;
+    background: #ffb1a8;;
+} 
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topright{
+    width: 50%;
+    padding: 12px 0px;
+}
+
+.topleft{
+   width: 50%;
+   
+}
+
+.section1{
+    max-height: 100vh;
+}
+
+.section1 h1{
+    font-size: 1.5rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.dumbellimg{
+    width: 290px;
+}
+
+.topright .gymimg{
+    width: 366px;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    margin: 12px 22px;
+    min-width: 33vh;
+    border: 2px solid #dcdcdc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box{
+    font-size: 1.2rem;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style: none;
+    display: contents;
+}
+
+.box ul li{
+    margin: 12px 12px;
+}
+
+.box h2{
+    background: #dcdcdc;
+    margin: 0px 0px;
+    padding: 10px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
