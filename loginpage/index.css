@@ -1,0 +1,90 @@
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dosis&family=Heebo&display=swap" rel="stylesheet">
+
+.abc{
+    margin: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+
+.containar {
+    /* border:12px solid black;  */
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+
+}
+
+.containar h1 {
+    
+    width: 40%;
+    display: inline-block;
+    font-size: 35px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 10px;
+    /* margin-left: 75px; */
+    padding: 13px 0px;
+}
+
+.box {
+    width: 100%;
+    border-bottom: 1.4px solid purple;
+    margin: 22px 0px;
+    /* border: 2px solid purple; */
+
+}
+
+.box input {
+    display: inline-block;
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.box i {
+    /* padding: 0px 12px; */
+    width: 25px;
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 12px 0px;
+    padding: 10px 26px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.4;
+    color: white;
+    background: rgb(192, 150, 241);
+    color: black;
+    font-weight: bold;
+}
+
+/*
+@media only screen and (max-width:950px){
+    body{
+        justify-content: center;
+    }
+}*/
