@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containar {
+    max-width: 80vw;
+}
+
+.navbar {
+    height: 80px;
+    cursor: pointer;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 2px 12px;
+}
+
+.btn{
+    padding: 5px 12px;
+    border: 2px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    background-color: #e24937;
+}
+
+.sticky{
+    position: sticky;
+}
+
+.fixed{
+    position: fixed;
+}
